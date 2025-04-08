@@ -4,7 +4,7 @@ h2{
 
 form {
     background-color: #8a8a8a; 
-    padding: 30px;
+    padding: 15px;
     border-radius: 8px;
     width: 400px;
     margin: 0 auto;
@@ -12,7 +12,7 @@ form {
 
 .button{
     background-color: #4CAF50; 
-            color: white; 
+            color: rgb(255, 255, 255); 
             padding: 8px 175px; 
             text-align: center; 
             font-size: 16px; 
