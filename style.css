@@ -52,4 +52,5 @@ input:hover::placeholder {
 
 button {
     margin-top: 20px;
+    padding: 2px 5px;
 }
