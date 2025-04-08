@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula de forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulário de candidatura</h1>
+    <section>
+         <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required placeholder="Insira seu nome"> <br>
+
+            <label for="email">Email:</label> 
+            <input type="text" name="email" id="email"  required placeholder="Insira seu email"> <br>
+
+            <label for="cargo">Cargo de tecnologia</label>
+            <select name="cargo" id="cargo">
+                <option value="c1">Pessoa desenvolvedora</option>
+                <option value="c2">Analista de sistemas</option>
+                <option value="c3">Administrador(a) de banco de dados</option>
+                <option value="c4">Testador</option>  
+            </select> <br>
+
+            <label for="gen">Gênero:</label>
+            <input type="radio" name="gen" id="gen1"> Masculino
+            <input type="radio" name="gen" id="gen2"> Feminino
+            <input type="radio" name="gen" id="gen3"> Outro <br>
+
+            <label for="Unidades">Unidades de interesse</label> 
+            <input type="checkbox" name="unidades" id="uni"> Fortaleza
+            <input type="checkbox" name="unidades" id="uni"> Caucaia
+            <input type="checkbox" name="unidades" id="uni"> Eusébio <br>
+
+            <label for="msg">Sobre você:</label> <br>
+            <textarea name="sobre" id="mensagem"></textarea> <br>
+
+            <input type="submit" value="Enviar" class="sub">
+         </form>
+    </section>
+</body>
+</html>
