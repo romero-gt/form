@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Formulário de Candidatura</h2>
+    <section>
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id=email name="email" required>
+            <br>
+            <br>
+            <label for="cargo">Cargo de Tecnologia:</label>
+            <select name="cargo" id="cargo">
+                <option value="none">Nenhum</option>
+                <option value="dev">Pessoa Desenvolvedora</option>
+                <option value="ads">Analista de Sistemas</option>
+                <option value="adm-de-dados"> Admnistrador(a) de banco de dados</option>
+                <option value="tester">Testador(a)</option>
+            </select>
+            <br>
+            <br>
+            <label for="genero">Gênero:</label>
+            
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="genero" id="masculino">
+            
+            <label for="feminino">Feminino</label>
+            <input type="radio" name="genero" id="feminino">
+            
+            <label for="outro">Outro</label>
+            <input type="radio" name="genero" id="outro">
+            <br>
+            <br>
+            <label for="unidade">Unidade de interesse:</label>
+
+            <label for="fortaleza">Fortaleza</label>
+            <input type="checkbox" name="unidade" id="Fortaleza">
+
+            <label for="caucaia">Caucaia</label>
+            <input type="checkbox" name="unidade" id="Caucaia">
+
+            <label for="eusebio">Eusébio</label>
+            <input type="checkbox" name="unidade" id="eusebio">
+            <br>
+            <br>
+            <label for="text">Fale mais sobre você:</label>
+            <br>
+            <input type="text" name="text" id="text">
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</body>
+</html>
