@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.089);
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+input::placeholder {
+    color: transparent;
+    transition: .5s;
+}
+
+input:hover::placeholder {
+    color: gray;
+}
+
+.radio {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin-top: 20px;
+}
