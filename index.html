@@ -3,29 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Formulário</title>
 </head>
 <body>
-    <div>
-        <h1>Formulário de Candidatura</h1>
+    <div class="main">
         <form>
-            <div>
+            <h1>Formulário de Candidatura</h1>
+            <div class="form-box">
                 <label for="name">Nome:</label>
-                <input type="text" id="name" name="name">
+                <input type="text" id="name" name="name" class="box-text">
             </div>
-            <div>
+            <div class="form-box">
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
+                <input type="email" id="email" name="email" class="box-text">
             </div>
-            <label for="profissao">Cargo de Tecnologia:</label>
-            <select name="cargo" id="cargo">
-                <option value="#">Escolha uma Opção</option>
-                <option value="front">Front-End</option>
-                <option value="back">Back-End</option>
-                <option value="full">FullStack</option>
-                <option value="mobile">Mobile</option>
-            </select>
-            <div>
+            <div class="form-box">
+                <label for="profissao">Cargo de Tecnologia:</label>
+                <select name="cargo" id="cargo">
+                    <option value="#">Escolha uma Opção</option>
+                    <option value="front">pessoa desenvolvedora</option>
+                    <option value="back">analista de sistemas</option>
+                    <option value="full">administrador(a) de banco de dados</option>
+                    <option value="mobile">testador(a)</option>
+                </select>
+            </div>
+            <div class="form-box">
                 <label>Gênero:</label>
                 <input type="radio" name="sexo" id="sexo" value="masculino">
                 <label for="sexo">Masculino</label>
@@ -34,7 +37,7 @@
                 <input type="radio" name="sexo" id="sexo" value="outros">
                 <label for="sexo">Outros</label>
             </div>
-            <div>
+            <div class="form-box">
                 <label for="">Unidade de Interesse</label>
                 <input type="checkbox" name="unidade" id="fortaleza" value="fortaleza">
                 <label for="unidade">Fortaleza</label>
@@ -43,11 +46,13 @@
                 <input type="checkbox" name="unidade" id="eusebio" value="eusebio">
                 <label for="unidade">Eusébio</label>
             </div>
-            <div>
+            <div class="form-box">
                 <label for="mensagem">Mensagem:</label><br>
                 <textarea name="mensagem" id="mensagem" rows="5" cols="50"></textarea>
             </div>
-            <input type="button" value="Enviar">
+            <div class="btn">
+                <input type="button" value="Enviar">
+            </div>
         </form>
     </div>
 </body>

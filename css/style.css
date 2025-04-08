@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin: 5rem auto;
+}
+
+.form-box {
+    margin: 1rem 0;
+}
+
+.box-text {
+    width: 21rem;
+}
+
+.btn {
+    text-align: center;
+    
+}
+
+.btn input {
+    padding: 0.5rem 1rem;
+}
