@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Candidatura</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <h1>Formulário de Candidatura</h1>
+
+    <form>
+        <label for="name">Nome</label><br>
+        <input type="nome" id="Nome" name="Nome"><br><br>
+        <label for="email">Email</label><br>
+        <input type="email" name="Email" id="Email"><br><br>
+
+        <label for="cargo de tecnologia">Cargo de Tecnologia:</label>
+        <select name="opçoes" id="Opções">
+            <option hidden value="vazio">Selecione</option>
+            <option value="estágiario">Estágiario</option>
+            <option value="DesenvolvedorWeb">Desenvolvedor Web</option><br>
+        </select><br><br>
+
+           <label for="genero">Gênero:</label>
+           <input type="radio" name="masculino" id="genero" value="Masculino">
+           <label for="masculino">Maculino</label>
+           <input type="radio" name="feminino" id="genero" value="Feminino">
+           <label for="feminino">Feminino</label>
+           <input type="radio" name="outro" id="genero" value="Outro">
+           <label for="outro">Outro</label><br><br>
+
+           <label for="unidadeDeEndereço">Unidade de Endereço:</label>
+           <input type="checkbox" name="fortaleza" id="genero" value="Fortaleza">
+           <label for="fortaleza">Fortaleza</label>
+           <input type="checkbox" name="eusebio" id="genero" value="Eusebio">
+           <label for="eusebio">Eusebio</label>
+           <input type="checkbox" name="caucaia" id="genero" value="Caucaia">
+           <label for="caucaia">Caucaia</label><br><br>
+
+           <label for="faleMaisSobreVoce">Fale mais sobre você:</label><br>
+           <textarea name="texto" rows="10" cols="50"></textarea><br>
+
+           <button type="button">Enviar</button>
+           
+    </form>
+
+</body>
+</html>
