@@ -1,0 +1,53 @@
+body{
+    background-color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+form{
+    background-color:darkgray;
+    margin: 0 auto;
+    width: 420px ;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    margin-bottom: 5px;
+}
+
+select, textarea, input{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    color: black;
+
+}
+
+#name, #email{
+    width: 80%;
+
+}
+
+textarea{
+    width: 100%;
+}
+
+button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    color: black;
+    cursor: pointer;
+}
+

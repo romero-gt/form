@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dia 7 de Abril 2025</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Site dia 08</title>
 </head>
 <body>
-    
+    <header>
+
+    </header>
+    <main>
+        <h2>Formulario de Candidatura</h2>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" class="name"><br>
+                <label for="email">E-mail:</label>
+                <input type="text" id="email" name="email" class="email"><br>
+                <label for="cargo">Cargo de Tecnologia</label>
+                <select name="cargo" id="cargo">
+                    <option value="selecione" selected disabled>selecione</option>
+                    <option value="pessoa desenvovedora">Pessoa desenvovedora</option>
+                    <option value="analista de sistemas">Analista de sistemas</option>
+                    <option value="administradora (a) de banco de dados">Administradora(o) de banco de dados</option>
+                    <option value="testador(a)">Testador(a)</option>
+                </select id="genero">
+                    <label for="genero">Gênero:</label>
+                    <input type="radio" name="genero" id="masculino" value="masculino">
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" name="genero" id="feminino" value="feminino">
+                    <label for="feminino">Feminino</label>
+                    <input type="radio" name="genero" id="outro" value="outro">
+                    <label for="outro">Outro</label><br> 
+                    <!--Divisão-->                
+                    <label for="unidade">Unidade de Interesse:</label>
+                    <input type="checkbox" name="fortaleza" id="fortaleza" value="fortaleza">
+                    <label for="fortaleza">Fortaleza</label>
+                    <input type="checkbox" name="Caucaia" id="Caucaia" value="Caucaia">
+                    <label for="Caucaia">Caucaia</label>
+                    <input type="checkbox" name="Eusébio" id="Eusébio" value="Eusébio">
+                    <label for="Eusébio">Eusébio</label><br>
+                    <!--Divisão-->                 
+                    <label for="message">Fale mais sobre você:</label><br>
+                    <textarea name="message" id="message" cols="50" rows="4"></textarea><br>              
+                    <button type="submit">Enviar</button>
+                
+            </form>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
