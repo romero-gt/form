@@ -1,45 +1,37 @@
-/* Estilização do título */
+/* Estilo do título */
 h1 {
     text-align: center;
-    font-style: italic;
 }
 
-/* Estilização da section */
+/* Estilo da seção */
 section {
-    margin: 20px;
-}
-
-/* Estilização dos inputs (name, email, cargo, uni) */
-input {
-    width: 100%;
-    margin: 5px 0;
-    padding: 8px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-}
-
-/* Estilização do botão .sub */
-.sub {
-    margin: 20px 0;
+    background-color: grey;
+    border-radius: 10px;
     padding: 10px;
-    background-color: blue;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    text-align: center;
+    width: 90%; /* Largura ajustada */
+    max-width: 400px; /* Limite de largura */
+    margin: auto; /* Centraliza na página */
 }
 
-form {
-    display: flex;
-    flex-direction: column; /* Coloca os itens em uma coluna */
-    gap: 10px; /* Espaçamento entre os itens */
-  }
-  
-  label {
-    display: flex;
-    align-items: center; /* Alinha o texto ao lado do botão de rádio */
-  }
-  
-  input[type="radio"] {
-    margin: 0; /* Remove margens padrão */
-  }
+/* Estilo geral para inputs e select */
+input[type="text"], select, textarea {
+    width: 90%;
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Botão de envio */
+.sub {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: rgba(0, 128, 0, 0.623);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sub:hover {
+    background-color: darkgrey; /* Efeito ao passar o mouse */
+}
