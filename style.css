@@ -54,3 +54,11 @@ button {
     margin-top: 20px;
     padding: 2px 5px;
 }
+
+input {
+    padding: 0 10px;
+}
+
+textarea {
+    padding: 10px;
+}
