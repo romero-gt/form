@@ -1,0 +1,14 @@
+div{
+    background-color: rgb(215, 217, 219);
+    border-radius: 20px;
+    padding: 10px;
+    
+    
+}
+h1{
+    text-align: center;
+}
+textarea{
+    height: 80px;;
+    width: 380px;
+}
