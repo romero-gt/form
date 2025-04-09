@@ -1,23 +1,26 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body{
+body {
+    display: flex; 
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center; 
+    height: 100vh; 
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 }
 
-.contain-form{
+.contain-form {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
-    align-items: center;
-    
+    align-items: center; 
 }
 
-.formulario{
+.formulario {
     display: flex;
     justify-content: center;
     gap: 8px;
@@ -25,21 +28,22 @@ body{
     margin-top: 10px;
 }
 
-h1{
+h1 {
     color: white;
 }
 
-
-
-input{
+input, select, textarea {
     height: 24px;
     border: 1px solid;
     border-radius: 4px;
 }
 
+textarea {
+    height: 100px;
+    resize: none;
+}
 
-
-fieldset{
+fieldset {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -47,17 +51,7 @@ fieldset{
     padding: 0px 4px;
 }
 
-textarea{
-    height:100px;
-    resize: none;
-}
-
-select{
-    height: 24px;
-    border-radius: 4px;
-}
-
-button{
+button {
     height: 30px;
     border: none;
     border-radius: 10px;
@@ -66,19 +60,22 @@ button{
     transition: 0.5s;
 }
 
-button:hover{
+button:hover {
     background-color: rgb(32, 4, 58);
     color: white;
     cursor: pointer;
 }
 
-.label-bold{
+.label-bold {
     font-weight: bold;
     color: rgb(21, 0, 54);
 }
 
-footer{
-    display: flex;
-    justify-content: end;
-    margin-right: 10px;
+footer {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    /* display: flex;
+    justify-content: end; */
+    /* margin-right: 10px; */
 }
