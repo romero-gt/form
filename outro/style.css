@@ -47,9 +47,56 @@ li{
     margin:0px 20px 0px 20px
 }
 
-select{
+select option{
+    appearance: none;
     color:black;
-    background-color:;
+    
+    background-color:white;
+}
+
+select option:checked{
+    color:white;
+    appearance:none;
+    background-color:rgb(36, 36, 254) ;
+}
+
+select  option:hover{
+    color:white;
+    appearance:none;
+    background-color:rgb(36, 36, 254);
+    
+
+/*appearance: none – Remove o estilo nativo (necessário para personalizar)
+
+-webkit-appearance: none – Safari/Chrome
+
+-moz-appearance: none – Firefox
+
+background-image – Coloca uma imagem (ex: uma seta customizada)
+
+background-repeat: no-repeat – Impede que a imagem se repita
+
+background-position – Posição da imagem (ex: direita)
+
+background-size – Tamanho da imagem
+
+padding-right – Espaço para a seta
+
+- PARA ALTERCAO DA CAIXA DE SELECT DENTRO , O OPTION DEVE SER USANDO ESSES :
+
+select option {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+}
+
+select option:checked {
+  background-color: #ddd; 
+  font-weight: bold;
+}
+
+*/
 }
 
 
