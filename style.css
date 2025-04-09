@@ -14,6 +14,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
+    padding: 20px 0;
 }
 
 form {
@@ -54,12 +56,30 @@ input:hover::placeholder {
 button {
     margin-top: 20px;
     padding: 2px 5px;
+    cursor: pointer;
 }
 
-input {
-    padding: 0 10px;
+input, textarea {
+    width: 100%;
+    padding: 3px 10px;
+    border-radius: 3px;
+    border: 1px solid black;
 }
 
-textarea {
-    padding: 10px;
+input[type="radio"], input[type="checkbox"] {
+    accent-color: gray;
+}
+
+.options-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@media screen and (max-width: 400px) {
+    .column {
+        flex-direction: column;
+        align-items: start;
+        margin: 15px 0;
+    }
 }
