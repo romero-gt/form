@@ -29,3 +29,10 @@ form {
     outline: none; 
     box-shadow: 0 0 5px 2px rgba(0, 128, 0, 0.5); 
 }
+textarea{
+    resize: both;
+    min-width: 385px;
+    max-width: 385px;
+    min-height: 50px;
+    max-height: 170px;
+}
